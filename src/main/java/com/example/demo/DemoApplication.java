@@ -73,7 +73,7 @@ public class DemoApplication {
         }); 
 
         // utterance 3
-        userInput = "11599994";
+        userInput = "11599";
         recognizeTextRequest = getRecognizeTextRequest(botId, botAliasId, localeId, sessionId, userInput);
         recognizeTextResponse = lexV2Client.recognizeText(recognizeTextRequest);
 
